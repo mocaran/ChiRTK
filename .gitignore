@@ -1,0 +1,28 @@
+# Visual Studio / build output
+x64/
+Debug/
+Release/
+*.user
+*.suo
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+.ipch
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.tlog
+*.idb
+
+# 实测数据与解算结果（体积大，不入库）
+raw_data/
+ChiRTK/Result/
+analysis/inputs/
+analysis/_backup/
+
+# 系统/编辑器
+.DS_Store
+Thumbs.db
+.vs/
+.vscode/
